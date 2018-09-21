@@ -1,0 +1,252 @@
+/*START GENERAL SETTINGS*/
+
+.footer {
+    background-color: #999191;
+    color: #fff;
+    padding: 20px;
+}
+
+/*START HOME PAGE*/
+.carousel-inner {
+    top: -24px;
+}
+/*END HOME PAGE*/
+
+/*END GENERAL SETTINGS*/
+.footer span {
+    font-family: 'Courgette', cursive; 
+}
+
+/*START SHOW BLOG PAGE*/
+.show-blog small {
+    display: block;
+}
+
+.show-body {
+    border-left: 4px solid #d35400;
+    padding-left: 10px;
+}
+/*END SHOW BLOG PAGE*/
+
+/*START INDEX PAGE*/
+.jumb-custom {
+    margin-top: -24px;
+    background-color: #656565;
+    color: #fff;
+    border-radius: 0;
+}
+
+
+.btn-yellow {
+    background-color: #e6d603;
+    border-color: #e6d603;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #c0b406;
+    border-color: #c0b406;
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: #d35400;
+    border-color: #d35400;
+    color: #fff;
+}
+
+.btn-orange:hover {
+    background-color: #ac4704;
+    border-color: #ac4704;
+    color: #fff;
+}
+
+.card-custom {
+    margin-bottom: 20px; 
+    border-color: #d35400;
+}
+
+
+
+/*END INDEX PAGE*/
+
+/*START CONTACT PAGE*/
+.contact-custom {
+    border: 3px solid #d35400;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #efefef;
+}
+/*END CONTACT PAGE*/
+
+/*START PAGINATION*/
+.page-link {
+    background-color: #656565;
+    border-color: #656565;
+    color: #fff;
+}
+
+.page-link:hover {
+    background-color: #424242;
+    border-color: #424242;
+    color: #fff;
+}
+
+.page-item.disabled .page-link {
+    background-color: #656565;
+    border-color: #656565;
+    color: #fff;
+}
+
+.page-item.active .page-link {
+    background-color: #424242;
+    border-color: #424242;
+    color: #d35400;
+}
+
+/*END PAGINATION*/
+
+/*START ABOUT PAGE*/
+.about-custom {
+    color: #fff;
+}
+
+.about-custom h1 {
+    font-family: 'Courgette', cursive; 
+}
+/*END ABOUT PAGE*/
+
+/*START REGISTER PAGE*/
+.card-header-custom {
+    background-color: #d86a21;
+    color: #fff;
+}
+/*END REGISTER PAGE*/
+
+/*START YOUR BLOGS PAGE*/
+.sidebar img {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar hr {
+    background-color: #fff;
+}
+
+.sidebar {
+    background-color: #3a3a3a;
+    color: #fff;
+    margin-bottom: -24px;
+    margin-top: -24px;
+    border-right: 4px solid #d35400;
+}
+
+.sidebar span {
+    color: #d86a21;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+/*END YOUR BLOGS PAGE*/
+
+/*START EDIT PROFILE*/
+.edit-profile-form {
+    background-color: #5a5a5a;
+    margin-top: -47px;
+    margin-bottom: -24px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+.profile-edit-img img {
+    width:250px;
+    height:250px;
+    display:block;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+/*END EDIT PROFILE*/
+/*START CREATE BLOG PAGE*/
+.alert-red {
+    color: #fff;
+    background-color: #e74c3c;
+    border-color: #d82f1d;
+}
+
+.close:not(:disabled):not(.disabled):hover, 
+.close:not(:disabled):not(.disabled):focus {
+    color: rgb(136, 5, 5);
+}
+.create-blog {
+    background-color: #5a5a5a;
+    margin-top: -47px;
+    margin-bottom: -24px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.create-blog h1 {
+    color: #fff;
+}
+/*END CREATE BLOG PAGE*/
+
+/*START EDIT BLOG PAGE*/
+.edit-blog {
+    background-color: #5a5a5a;
+    margin-top: -47px;
+    margin-bottom: -24px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.edit-blog h1 {
+    color: #fff;
+}
+/*END EDIT BLOG PAGE*/
+
+/*START GUEST NAVBAR*/
+.navbar-custom {
+    background-color: #3a3a3a;
+}
+
+.navbar-dark .navbar-brand {
+    color: #d35400;
+}
+
+.navbar-dark .navbar-brand:hover, 
+.navbar-dark .navbar-brand:focus {
+    color: #ffed4a;
+}
+
+.navbar-brand-custom {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #d35400;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, 
+.navbar-dark .navbar-nav .active > .nav-link, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #d35400;
+}
+
+.button-custom {
+    border-color:#d35400;
+}
+.button-custom:hover {
+    background-color: #d35400;
+    border-color: #d35400;
+    color: #fff;
+}
+
+/*END GUEST NAVBAR*/
