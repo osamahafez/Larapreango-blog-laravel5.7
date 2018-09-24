@@ -26,7 +26,7 @@
 
             <ul class="navbar-nav ml-auto">
                 <div class="navbar-profile-image">
-                    <img src="{{ (Auth::user()->image == NULL) ? '/storage/profile_pics/no-image.png' : 'storage/profile_pics/' . Auth::user()->image }}">
+                    <img src="{{ (Auth::user()->image == NULL) ? '/img/no-image.png' : 'storage/profile_pics/' . Auth::user()->image }}">
                 </div>    
                 <li class="nav-item dropdown">
                     <!--Dropdown Heading-->
