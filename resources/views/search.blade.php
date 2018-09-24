@@ -15,7 +15,7 @@
             @forelse ($results as $result)
                 <div class="col-md-4 col-sm-6">
                     <div class="card card-custom">
-                        <img class="card-img-top" src="{{ ($result->cover == NULL) ? '/storage/cover_pics/no-cover-image.jpg' : 'storage/cover_pics/' . $result->cover }}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ ($result->cover == NULL) ? '/img/no-cover.png' : 'storage/cover_pics/' . $result->cover }}" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">{{ $result->title }}</h4>
                             <p class="card-text">{{ strip_tags(str_limit($result->content, rand(120,150))) }}</p>

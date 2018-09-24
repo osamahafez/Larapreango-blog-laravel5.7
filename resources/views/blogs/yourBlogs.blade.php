@@ -45,7 +45,7 @@
                     @forelse ($blogs as $blog)
                         <div class="col-md-4 col-sm-6">
                             <div class="card card-custom">
-                                <img class="card-img-top" src="{{ ($blog->cover == NULL) ? '/storage/cover_pics/no-cover-image.jpg' : 'storage/cover_pics/' . $blog->cover }}" alt="Card image cap">
+                                <img class="card-img-top" src="{{ ($blog->cover == NULL) ? '/img/no-cover.png' : 'storage/cover_pics/' . $blog->cover }}" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">{{ $blog->title }}</h4>
                                     <p class="card-text">{{ strip_tags(str_limit($blog->content, rand(120,150))) }}</p>
