@@ -1,6 +1,6 @@
 # Larapreango
 
-Larapreango is a technical Blog app made using laravel
+Larapreango is a technical Blog app made using laravel 5.7
 
 ## Getting Started
 
