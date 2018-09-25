@@ -18,6 +18,8 @@
         <p class="text-center">by {{$blog[0]->firstName}} {{$blog[0]->lastName}}</small>
         <small class="text-center">{{$date}}</small>
         <br>
+        <img style="width:100%" src="{{($blog[0]->cover == NULL) ? '' : '/storage/cover_pics/' . $blog[0]->cover }}">
+        <br> <br> 
         <div class="show-body">
             {!!$blog[0]->content!!}
         </div>
