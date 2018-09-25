@@ -12,5 +12,5 @@ Larapreango is a technical Blog app made using laravel 5.7
 6. Fill all the database information in the ".env" file
 7. Generate app encryption key using `` php artisan key:generate ``
 8. Generate the database tables using `` php artisan migrate `` 
-9. Seed the database (Optional) using `` php artisan db:seed ``
+9. Seed the database (Optional) using `` php artisan db:seed `` (password for all seeded users is "secret")
 10. Have Fun !!
