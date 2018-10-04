@@ -35,6 +35,8 @@
         </main>
         
         @include('inc.footer')
+
+        <script src="{{asset('js/custom.js')}}"></script>
     </div>
     
 </body>

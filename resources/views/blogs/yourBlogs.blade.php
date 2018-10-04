@@ -12,8 +12,8 @@
     
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3 sidebar">
-                
+            <div class="col-md-3 sidebar" id="sidebar">
+                <div id="toggleButton" onclick="toggle()"></div>
                 <div class="text-center"><img class="rounded-circle" src="/storage/profile_pics/{{$image}}"></div>
                 <h2 class="text-center">{{$user[0]->firstName}} {{$user[0]->lastName}}</h2>
                 <hr>
