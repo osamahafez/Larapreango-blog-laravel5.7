@@ -137,10 +137,17 @@
 }
 
 .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
     background-color: #3a3a3a;
     color: #fff;
-    margin-bottom: -24px;
-    margin-top: -24px;
+    transition: all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+    z-index: 2;
+    /* margin-bottom: -24px;*/
+    /*margin-top: -24px;*/
     border-right: 4px solid #d35400;
 }
 
