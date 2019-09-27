@@ -12,7 +12,7 @@
     <div class="jumbotron jumb-custom">
         <div class="container">
             <h1 class="display-4">Welcome, </h1>
-            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In fugiat sint id non cumque voluptate adipisci minima, itaque eius aut saepe odit consequuntur perferendis, nam nisi possimus sed deleniti reprehenderit.</p>
+            <p class="lead">A Social Network made in 2018 with <span style="color:#ff8839">Laravel</span>. You can view user's blogs without registration, but if must sign up and login to create a blog.</p>
             <p><a class="btn btn-yellow btn-lg btn-block" href="{{url('/register')}}" role="button"> Sign up</a></p>
             <p><a class="btn btn-orange btn-lg btn-block" href="{{url('/login')}}" role="button"> Login</a></p>
         </div>

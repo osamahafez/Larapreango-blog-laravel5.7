@@ -33,8 +33,8 @@ class BlogsController extends Controller
             ->select('blogs.*', 'users.firstName', 'users.lastName')
             ->paginate(30);
 
-        //$date = Carbon::parse($blogs[0]->created_at)->diffForHumans();
-        return view('blogs.index', compact('blogs', 'date'));
+        // $date = Carbon::parse($blogs[0]->created_at)->diffForHumans();
+        return view('blogs.index', compact('blogs'));
     }
 
     /**
